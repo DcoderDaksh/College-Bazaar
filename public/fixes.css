@@ -1,0 +1,9 @@
+/* Component layout rules must not override route visibility. */
+.page:not(.active) { display: none !important; }
+
+/* Keep the seller workspace visible when its route becomes active. */
+#dashboard.page.active { display: flex !important; }
+#dashboard.page.active .dash-content { display: block !important; }
+
+/* The header already contains the Campus Bazaar brand. */
+#dashboard aside > .brand { display: none; }
