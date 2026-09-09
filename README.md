@@ -9,7 +9,7 @@ A campus-only marketplace with an Express API, PostgreSQL/Prisma persistence, pa
 - Protected listing creation and owner-only listing status updates
 - Prisma models and indexes for users and listings
 - Local listing assistant endpoint for price and description suggestions (no external API key required)
-- - No `.env` file is included or required for demo mode. For PostgreSQL persistence, configure `DATABASE_URL` and `JWT_SECRET` in the deployment environment.
+- No `.env` file is included or required for demo mode. For PostgreSQL persistence, configure `DATABASE_URL` and `JWT_SECRET` in the deployment environment.
 
 ## Run locally
 
